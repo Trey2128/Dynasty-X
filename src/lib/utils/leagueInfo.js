@@ -122,7 +122,7 @@ export const managers = [
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "991931160957612032",
       "name": "Joel",
-      "location": "Waukegan", // (optional)
+      "location": "Arlington Heights", // (optional)
       "bio": "Drafted my team with the aspirations of reaching on too many of my picks that did not end up panning out. Always looking for that diamond in the rough",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
