@@ -149,7 +149,7 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>26 Total Players</p>
     
     <p class="underscore">Starters</p>
     <ul>
@@ -158,16 +158,17 @@
         <li>RB</li>
         <li>WR</li>
         <li>WR</li>
+        <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
-        <li>K</li>
+        <li>FLEX (RB/WR/TE)</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>12 Bench</p>
 
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>2 IR Spots (Player must be labeled as IR, Out, DNR, or Covid in the Sleeper App)</p>
+
+    <p>4 Taxi Squad Spots (Rookies or 2nd year players only)</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
