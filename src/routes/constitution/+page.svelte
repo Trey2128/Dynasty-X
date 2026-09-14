@@ -343,7 +343,16 @@
 
     <p>Divisions are purely for scheduling and have no effect on playoffs or seeding</p>
 
-    <h3 bind:this={oneSeven}>1.7 Scheduling</h3> (when not followed by x.x.x)
+    <h3 bind:this={oneSeven}>1.7 Scheduling</h3> 
+
+(when not followed by x.x.x)
+
+Regular paragraph just to see what it looks like
+
+tip:
+point 
+berg
+rob
 
     <p>After the Divisional draft the schedule will consist of 14 weeks:</p>
 
