@@ -199,43 +199,39 @@
    
     <p>The 2 Injury Reserve spots can be filled by anyone who’s out, suspended, holding out, or on Covid-19 reserve. Leaving healthy players on IR will result in punishments referred to in section 2.2.</p>
     
-    <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
+    <h4 bind:this={oneTwoOne}>1.2.1 Taxi Squad Stealing</h4>
     <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
-        
-        <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
-            <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
-        </ul>
+        <p>To claim a player:</p>
 
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
+        <p>Claiming Owner (CO) must send Original Owner (OG) a trade for the Taxi Squad Player sending proper draft pick compensation by Tuesday 11:59pm. Proper comensation is as follows:</p>
 
-        <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
+        <p>1st round pick - 1st + 2nd round picks</p>
 
-        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
-    </div>
+        <p>2nd round pick - 1st round pick</p>
 
-    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
-    <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
-    <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
-    <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
-    <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
-    </div>
-    
+        <p>3rd round pick - 2nd round pick</p>
+
+        <p>Free Agent pickup - 4th round pick</p>
+
+        <p>After sending the trade, CO must post a screenshot of the trade offer in the league chat. This is their claim submittal. Once a claim is in no other owner can submit a claim for that same player</p>
+
+        <p>After the claim:</p>
+
+        <p>Once OG receives the claim and it’s posted in the league chat OG has until 6pm on Thursday to either accept the claim, activate the player onto their active roster, or trade the player for BETTER compensation than the claim. OG can auction the player and shop them around to get better compensation. They cannot accept equal compensation. So for example, if CO claims a player for a 3rd round pick (because that player was drafted in the 4th round of their draft), OG can only trade that player for a 2nd or better. They cannot trade that player for a 3rd round pick to a different team. If OG finds a better trade offer they can accept that before 6pm Thursday</p>
+
+        <p>If OG does not respond to the claim offer before 6pm Thursday the claim is automatically accepted and the commissioner will manually push the trade through</p>
+
+        <p>Side Notes:</p>
+
+        <p>If OG decides to activate the player with a claim on them to their active roster they cannot cut them for the rest of the season. Penalty is forfeiture of next 1st round pick</p>
+
+        <p>Draft pick must be for the following year for claims. So any claim this year must be for a 2027 pick</p>
+
+        <p>Claims can be for better draft picks, not worse. So for example, if I want to claim a player drafted in the 4th round but don’t have a 3rd round pick for 2027, I can submit a claim using a 1st or 2nd round pick for 2027</p>
+
+        <p>If a player is picked up off free agency and then claimed off someone’s Taxi Squad they are valued as an undrafted player. So if a player is drafted in any round, dropped, then placed on Taxi by the owner who picks them up they can be claimed for a 4th round pick</p>
+
+        <p>Each team gets 2 claims per season, regardless if it’s successful or not. So if you put in a claim for a player and the original owner activates them or trades them for better picks, you still only have 1 claim left </p>
     
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
