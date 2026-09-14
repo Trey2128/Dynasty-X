@@ -293,9 +293,67 @@
 
     <h3 class="subSectionHeading" bind:this={oneFive}>1.5 Waiver Wire</h3>
 
-    <p></p>
+    <p>The waiver order will begin each season based off the order at the end of the previous year. The order will only change when owners make FAAB bids that tie with another owner. The owner with the lower waiver priority will receive the player and be put at the bottom of the list</p>
 
-    <p></p>
+    <p>Everyone has the right to run their team how they see fit. However, commissioners have the right to prevent unreasonable drops to maintain integrity of the league</p>
+
+    <h4 bind:this={oneFiveOne}>1.5.1 Free Agent Auction Budget (FAAB)</h4>
+    <div class="subBlock">
+
+        <p>How FAAB works - https://support.sleeper.app/en/articles/1876040-how-does-faab-bidding-work</p>
+
+        <p>Each owner will receive $100 of FAAB money after the draft every year. Owners will have the ability to trade FAAB money. You cannot trade future FAAB money and will not be allowed to go into the negative. FAAB will not roll over into the next season</p>
+
+        <p>You cannot exceed $1,000 of FAAB in a single season. Meaning since you start with $100 the maximum you can trade for throughout the year is an additional $900</p>
+
+    </div>
+
+    <h4 bind:this={oneFiveTwo}>1.5.2 Offseason Waivers</h4>
+    <div class="subBlock">
+
+        <p>Offseason Waivers will open after the draft and process once a week on Monday morning @ 10am. This gives every team enough time to see recent news and put their bids in for players</p>
+
+    </div>
+
+    <h4 bind:this={oneFiveThree}>1.5.3 Season Waivers</h4>
+    <div class="subBlock">
+
+        <p>Season waiver settings will take effect the week before the NFL season starts. Players must be on a roster for 24 hours after being picked up to go back on waivers. Any player picked up and dropped less than 24 hours later will become a regular free agent. Players cannot be dropped after their game has started. The waiver schedule will be as follows:</p>
+
+        <li>Monday - FA</li>
+        <li>Tuesday - Locked</li>
+        <li>Wednesday - Waivers to FA</li>
+        <li>Thursday - Locked</li>
+        <li>Friday - FA</li>
+        <li>Saturday - FA</li>
+        <li>Sunday - FA</li>
+
+        <p>Legend:</p>
+
+        <li>Locked - no FA transactions allowed</li>
+        <li>Waivers - players clear waivers at noon, other FA remain on waivers after</li>
+        <li>Waivers to FA - players clear waivers at noon then become first come first serve</li>
+        <li>FA - players are first come first serve all day</li>
+
+    </div>
+
+    <h3 bind:this={oneSix}>1.6 Divisional Breakdown</h3> 
+
+    <p>At the Draft the top 3 teams based off playoff finish will draft their division mates for the upcoming season. The champion will pick 1st, runner-up 2nd, and winner of the 3rd place game will pick 3rd. It will be a serpentine draft with the 3rd place team picking twice in a row and so on</p>
+
+    <p>Divisions are purely for scheduling and have no effect on playoffs or seeding</p>
+
+    <h3 bind:this={oneSeven}>1.7 Scheduling</h3> (when not followed by x.x.x)
+
+    <p>After the Divisional draft the schedule will consist of 14 weeks:</p>
+
+    <li>First 3 weeks – divisional matchups (random order)</li>
+    <li>Next 8 weeks – non-divisional matchups (random order)</li>
+    <li>Final 3 weeks – divisional matchups (random order)</li>
+
+    <p>You will play the teams in your division twice and all other teams once</p>
+
+    <p>Every week you will play against your opponent and the league median</p>
 
 
 
