@@ -356,71 +356,226 @@
 
     <p>Every week you will play against your opponent and the league median</p>
 
+
     <h2 class="sectionHeading" bind:this={two}>Section 2: Ownersship Expectations</h2>
 
     <h3 bind:this={twoOne}>2.1 Setting Lineups</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
 
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
-    
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
-    
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
+    <p>All owners are expected to set their lineups every week. Tanking is not allowed so sitting star players, having healthy players on IR, starting players who aren’t playing, or leaving starting lineup spots empty will result in disciplinary action. Those are as follows:</p>
 
-    <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
+    <p>First Offense – 10 points added to your season Max Points for every spot left empty/healthy player on IR</p>
+
+    <p>Second Offense – 10 points added to your season Max Points for every spot left empty/healthy player on IR + forfeiture of 2nd round pick</p>
+
+    <p>Third Offense – 10 points added to your season Max Points for every spot left empty/healthy player on IR + forfeiture of 1st round pick</p>
+
+    <p>Fourth Offense – Removal from the league</p>
+
+    <p>Only exceptions are:</p>
+
+    <ol>
+        <li>When an owner is leading while their opponent has no players left to play. This way a player can’t score negative points and cost that owner the game</li>
+        <li>When there’s no available free agents to pickup and start or an owner is outbid for said free agent</li>
+    </ol>
+
+    <p>If an owner is dismissed for not setting lineups then the new owner taking over will have the max point additions removed and their draft picks reinstated</p>
+
+
+    <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Leaving the League</h3>
+
+    <p>If you would like to sell the ownership of your team for the current season, you will be responsible for finding someone interested in purchasing it. If you plan on leaving in a future season please let me know ASAP so I can work on finding a new owner to keep the league running as smoothly as possible. If you have paid future dues for any trades that have been completed these dues WILL NOT be refunded</p>
+
+    <h4 bind:this={twoTwoOne}>2.2.1 New Owners</h4>
+    <div class="subBlock">
+
+        <p>A new owner taking over a team that does not have both their 1st and 2nd round picks will not have to pay the league fee that season, and the current season pot will be decreased by $50 (with the $50 deposit the previous owner paid for that year going toward the kitty and pot). A decrease of $50 will result in each payout being reduced by $10 that season. The new owner may also get a discounted league fee ($50) their first season if they are taking over a team that has a very poor outlook for the future. This way if an owner leaves a terrible team it’s not impossible to fill it. It also gives the new owner a discount year to accrue picks and other assets to begin a rebuild</p>
+
+    </div>
+
+    <h3 bind:this={twoThree}>2.3 Removal</h3>
+
+    <p>The owners can vote to remove any owner from the league during each offseason. As long as they feel this owner is ruining the integrity of the league and they can provide acceptable evidence. If any owner is removed it will fall on the commissioner to replace said owner. If an owner has paid and is subsequently removed before the start of the fantasy season they will receive a league fee refund</p>
+
+    <p>Future dues paid for draft pick trades already made WILL NOT be refunded as reversing these trades could undo the league and giving a refund will screw over future owners of that team or the kitty. Just don’t do stupid stuff and we won’t have to worry about this</p>
+
+    <p>Owners cannot be voted out during the season, only removed for egregious misconduct</p>
+
+    <p>If an owner quits or is removed in the middle of the fantasy season, it will fall on the commissioner to manage said team until a new owner is found. No roster transactions will be allowed to occur with this team until a new owner is found, only setting the starting lineup</p>
+
+    <h3 bind:this={twoFour}>2.4 Rule Voting</h3>
+
+    <p>Each season new rules and regulations will be brought to the attention of the owners at the league draft. All rules and regulations will be voted on and must receive a majority vote to be approved. Majority vote is classified as 7 or more votes</p>
+
+    <p>Please send any new rule ideas to me prior to the draft to make sure it is possible to implement them on the Sleeper site. This ensures that we don’t waste time voting on impossible rules</p>
+
+    <h3 bind:this={twoFive}>2.5 Last Place Punishment</h3>
+
+    <p>The owner who loses the toilet bowl will have to pay for the new plaque engraving on the trophy for the winner. This will be $15 for taxes and shipping. This fee will be added to their following season’s dues</p>
+
     
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
+    <h2 class="sectionHeading" bind:this={three}>Section 3: Drafting</h2>
+
+    <h3 bind:this={threeOne}>3.1 Draft Order</h3>
+
+    <p>The draft order for the first 6 picks will be determined by reverse max points with only non-playoff teams being eligible. The following 6 picks will be determined by playoff finish</p>
+
+    <h3 bind:this={threeTwo}>3.2 Draft Day Trades</h3>
+
+    <p>All trades during the league draft must be made within the 10 minute timer. Once a trade has been completed the timer will reset to allow the new team to make a selection</p>
+
+    <p>FUTURE PICK TRADE RULES STILL APPLY</p>
+
+    <h3 bind:this={threeThree}>3.3 Draft Date & Time</h3>
+
+    <p>2027 Draft - TBD</p>
+
+
+    <h2 class="sectionHeading" bind:this={four}>Section 4: Scoring System</h2>
     
-    <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <h3 bind:this={fourOne}>4.1 Scoring</h3>
+
+    <p>Passing</p>
+    <ul>
+        <li>TD: 4</li>
+        <li>Yards: .04 point per yard</li>
+        <li>Interception: -2</li>
+        <li>Sack: -0.5</li>
+        <li>2-Pt Conversion: 1</li>
+    </ul>
+
+    <p>Rushing</p>
+    <ul>
+        <li>TD: 6</li>
+        <li>Yards: .1 point per yard</li>
+        <li>2-Pt Conversion: 2</li>
+    </ul>
+
+    <p>Receiving</p>
+    <ul>
+        <li>Reception: 0.5 (1 for TE)</li>
+        <li>TD: 6</li>
+        <li>Yards: .1 point per yard</li>
+        <li>2-Pt Conversion: 2</li>
+    </ul>
+
+    <p>Special Teams</p>
+    <ul>
+        <li>Return Yards: .02 point per yard</li>
+        <li>TD: 6</li>
+    </ul>
+
+    <p>Miscellaneous</p>
+    <ul>
+        <li>Fumble: -3</li>
+        <li>Fumble Recovery TD: 6</li>
+    </ul>
+
+    <h3 bind:this={fourTwo}>4.2 Voting on Scoring System</h3>
+
+    <p>Each season at the draft, owners can bring forth any scoring proposals they would like to see changed. If the proposal is well received, we will proceed with a league vote. If the proposal receives a majority vote, it will be approved</p>
+
+
+    <h2 class="sectionHeading" bind:this={five}>Section 5: Postseason</h2>
     
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
+    <h3 bind:this={fiveOne}>5.1 Playoffs</h3>
+
+    <p>At the end of the season the top 6 teams will make the playoffs. The top 2 teams will receive a bye week in the first round. Each playoff matchup will only last one week and the winner will advance. Each week of the playoffs is reseeded with the higher seed teams always playing the lower ones</p>
+
+    <h3 bind:this={fiveTwo}>5.2 Playoff Tiebreakers</h3>
+
+    <p>If two teams tie in the playoffs, the playoff tiebreaker will be bench points scored. If they are also tied in bench points, it will go to the team with the higher seed</p>
+
+    <h3 bind:this={fiveThree}>5.3 Seeding Tiebreakers</h3>
+
+    <p>If two teams finish with the same record the tiebreakers will go as follows:</p>
 
     <ol>
         <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
+        <li>Head 2 Head</li>
         <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
+        <li>Coin Toss (conducted by Sleeper)</li>
     </ol>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
-    
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <h3 bind:this={fiveFour}>5.4 Toilet Bowl</h3>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <p>The 6 teams not in the playoffs will be put into the Toilet Bowl. Seeding works the same way as the playoffs except the bottom 2 teams get a bye. The winners of each week will get “flushed” out and the losers advance. The team who loses every game will receive the punishment of buying a new plaque</p>
+
+
+    <h2 class="sectionHeading" bind:this={Six}>Section 6: Expansion</h2>
     
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
-    
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
-    
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <h3 class="subSectionHeading" bind:this={sixOne}>6.1 Expansion</h3>
+
+    <p>This is how we would conduct expansion if we ever do. It does not mean we are guaranteed to expand. I just wanted this put in place so nobody was surprised by the process if it were to ever happen. Expansion will always be in increments of 2, never leaving an odd number of teams</p>
+
+    <h4 bind:this={sixOneOne}>6.1.1 Setup</h4>
+    <div class="subBlock">
+
+        <p>Every team will “franchise tag” 9 players they would like to keep. The 9 players must be made up of different positions. The position limits are as follows:</p>
+
+        <ul>
+            <li>1 QB</li>
+            <li>2 RBs</li>
+            <li>3 WRs</li>
+            <li>1 TE</li>
+            <li>2 Flex</li>
+            <li>1 Superflex</li>
+        </ul>
+
+        <p>All non-tagged players including free agents will be put into an expansion draft. This will leave at least 1 “starting caliber” player available from every team</p>
+
+    </div>
+
+    <h4 bind:this={sixOneTwo}>6.1.2 The Expansion Draft</h4>
+    <div class="subBlock">
+
+        <p>The 2 expansion teams will conduct a 22-round serpentine draft from the available player pool of non-tagged players and free agents. This draft will have no position limits. The limit of players that can be drafted from a single team is 4. Whenever a player is drafted from a team that team’s owner is allowed to immediately tag an additional player</p>
+
+    </div>
+
+    <h4 bind:this={sixOneThree}>6.1.3 After the Draft</h4>
+    <div class="subBlock">
+
+        <p>Following the 22 round expansion draft, the original 12 teams will have to lower their roster to 22 players if they’re not there already. The rookie draft will proceed as normal with the 1.01 and 1.02 given to the 2 expansion teams. The rookie draft would then be trimmed to 3 rounds along with the Taxi Squad to 3 spots</p>
+
+    </div>
+
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
-    
+
+    <p>League Fee Deadline – July 1st</p>
+
+    <p>League fees of $100 have a deadline of 2 weeks prior to the draft. Owners are expected to pay this fee by the deadline to get payouts situated. The league fee breakdown goes as follows:</p>
+
+    <ul>
+        <li>$80 towards season payouts</li>
+        <li>$20 towards the 5 year kitty</li>
+    </ul>
+
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
+
+    <p>Annual Pot</p>
+
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
+        <li>1st place - $500</li>
+        <li>2nd  place - $250</li>
+        <li>3rd place - $110</li>
+        <li>4th place - $50</li>
+        <li>High Score - $50</li>
     </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
-    
+
+    <p>Kitty</p>
+
+    <ul>
+        <li>1st place - $600</li>
+        <li>2nd place - $400</li>
+        <li>3rd place - $200</li>
+    </ul>
+
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+
+    <p>After the kitty is paid out we can hold a league vote to raise dues. A ⅔ majority is required for this to pass. Voting will be held every 5 years</p>
 
 </div>
