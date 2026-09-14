@@ -233,7 +233,8 @@
 
         <p>Each team gets 2 claims per season, regardless if it’s successful or not. So if you put in a claim for a player and the original owner activates them or trades them for better picks, you still only have 1 claim left </p>
     
-    
+    </div>
+
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
     <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
