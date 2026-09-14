@@ -346,10 +346,11 @@
     <h3 bind:this={oneSeven}>1.7 Scheduling</h3> 
 
     <p>After the Divisional draft the schedule will consist of 14 weeks:</p>
-
+    </ul>
         <li>First 3 weeks – divisional matchups (random order)</li>
         <li>Next 8 weeks – non-divisional matchups (random order)</li>
         <li>Final 3 weeks – divisional matchups (random order)</li>
+    </ul>
 
     <p>You will play the teams in your division twice and all other teams once</p>
 
