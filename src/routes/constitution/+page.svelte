@@ -205,13 +205,13 @@
 
         <p>Claiming Owner (CO) must send Original Owner (OG) a trade for the Taxi Squad Player sending proper draft pick compensation by Tuesday 11:59pm. Proper comensation is as follows:</p>
 
-        <p>1st round pick - 1st + 2nd round picks</p>
-
-        <p>2nd round pick - 1st round pick</p>
-
-        <p>3rd round pick - 2nd round pick</p>
-
-        <p>Free Agent pickup - 4th round pick</p>
+    <ul>
+        <li>1st round pick - 1st + 2nd round picks</li>
+        <li>2nd round pick - 1st round pick</li>
+        <li>3rd round pick - 2nd round pick</li>
+        <li>4th round pick - 3rd round pick</li>
+        <li>Free Agent pickup - 4th round pick</li>
+    </ul>
 
         <p>After sending the trade, CO must post a screenshot of the trade offer in the league chat. This is their claim submittal. Once a claim is in no other owner can submit a claim for that same player</p>
 
@@ -254,9 +254,10 @@
     <div class="subBlock">
         <p>All trades will be reviewed by the commissioner to make sure no foul play is occurring. If any owners are found to be guilty of accepting/offering bribes to enhance their/anothers team via trade they will be susceptible to punishment and the trade will be denied. The punishments will go as follows:</p>
 
-        <p>First Offense – Loss of current year 1st round draft pick & one year playoff ban (for both teams if trade is accepted)</p>
-
-        <p>Second Offense – Removal from league</p>
+        <ul>
+            <li>First Offense – Loss of current year 1st round draft pick & one year playoff ban (for both teams if trade is accepted)</li>
+            <li>Second Offense – Removal from league</li>
+        </ul>
 
         <p>Commissioners can reverse and deny trades at any time if they feel it is necessary to keep the integrity of the league</p>
 
@@ -267,7 +268,7 @@
     <h4 bind:this={oneFourTwo}>1.4.2 Trade Deadline</h4>
     <div class="subBlock">
 
-       <p>The trading deadline will be week 11. All deals must be made prior to the end of the final game of week 11. As soon as the final game is over, trades will be closed. Trading will open back up once the league is renewed after the Super Bowl</p>
+        <p>The trading deadline will be week 11. All deals must be made prior to the end of the final game of week 11. As soon as the final game is over, trades will be closed. Trading will open back up once the league is renewed after the Super Bowl</p>
 
     </div>
 
