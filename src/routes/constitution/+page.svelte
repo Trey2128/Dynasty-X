@@ -231,19 +231,74 @@
 
         <p>If a player is picked up off free agency and then claimed off someone’s Taxi Squad they are valued as an undrafted player. So if a player is drafted in any round, dropped, then placed on Taxi by the owner who picks them up they can be claimed for a 4th round pick</p>
 
-        <p>Each team gets 2 claims per season, regardless if it’s successful or not. So if you put in a claim for a player and the original owner activates them or trades them for better picks, you still only have 1 claim left </p>
+        <p>Each team gets 2 claims per season, regardless if it’s successful or not. So if you put in a claim for a player and the original owner activates them or trades them for better picks, you still only have 1 claim left</p>
     
     </div>
 
-    <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
+    <h3 bind:this={oneThree}>1.3 Dynasty</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
+    <p>With this league being a dynasty league all players will be kept on current rosters for the entirety of their careers</p>
 
-    <p>FAAB budgets will reset each season in January.</p>
+    <p>Only way players are removed from rosters are via retirement, cuts, and trades</p>
     
     
-    <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
-    
+    <h3 class="subSectionHeading" bind:this={oneFour}>1.4 Trading</h3>   
+
+    <p>Owners will have the option to exchange players and draft picks during the trade window. As long as both parties come to an agreement with no foul play, and all future dues involved in the deal are paid, the trade will be approved and processed. Owners will have 3 days to pay future dues owed for trades. If not paid within this time frame the trade will be denied</p>
+
+    <p>If there is an accidental trade (i.e. someone accidentally hits accept instead of decline) the trade will be reversed as long as it is brought up immediately. If you wait to bring it up then the trade will still be processed as long as it meets the above criteria. If both owners come to the agreement of canceling the trade then the trade will be canceled</p>
+
+    <p> If for any reason the commissioner accidentally rejects a trade that should be pushed through (draft picks paid for and no collusion occurring) then the commissioner will just manually make the trade using commissioner settings. If the commissioner accidentally rejects a trade that still hasn’t met the trade criteria (draft picks not paid for or collusion occuring) the two trading teams will have to re-agree to the trade and resubmit it</p>
+
+    <h4 bind:this={oneFourOne}>1.4.1 Trade Collusion</h4>
+    <div class="subBlock">
+        <p>All trades will be reviewed by the commissioner to make sure no foul play is occurring. If any owners are found to be guilty of accepting/offering bribes to enhance their/anothers team via trade they will be susceptible to punishment and the trade will be denied. The punishments will go as follows:</p>
+
+        <p>First Offense – Loss of current year 1st round draft pick & one year playoff ban (for both teams if trade is accepted)</p>
+
+        <p>Second Offense – Removal from league</p>
+
+        <p>Commissioners can reverse and deny trades at any time if they feel it is necessary to keep the integrity of the league</p>
+
+        <p>First offense will stay on your record for 3 seasons before having a clean slate</p>
+
+    </div>
+
+    <h4 bind:this={oneFourTwo}>1.4.2 Trade Deadline</h4>
+    <div class="subBlock">
+
+       <p>The trading deadline will be week 11. All deals must be made prior to the end of the final game of week 11. As soon as the final game is over, trades will be closed. Trading will open back up once the league is renewed after the Super Bowl</p>
+
+    </div>
+
+    <h4 bind:this={oneFourThree}>1.4.3 Trade Restrictions</h4>
+    <div class="subBlock">
+
+       <p>Trading of future 1st or 2nd rounders will require a 50% deposit for that year. For example, if you want to trade a 2026 2nd rounder you will have to pay $50 for 2026 for the trade to be pushed through. You, or whoever owns that team come 2026 will still owe the remaining $50 come that season</p>
+
+       <p>Deposit will only be required if you’re trading away your only 1st or 2nd rounder. If you own multiple 1sts or 2nds you will not have to pay a deposit to trade them. Trading future 3rd and 4th rounders will not require a deposit. Trading for better picks will also not require a deposit (ex: trading your 2nd rounder to get a 1st)</p>
+
+       <p>Trades will pend for 3 days for deposits. If deposits are not made then the trade will be cancelled</p>
+
+       <p>*if for whatever reason only one team pays a deposit when both are required to within the 3 day window then the deposit will be returned to the paying team and the trade will be cancelled*</p>
+
+    </div>
+
+    <h4 bind:this={oneFourFour}>1.4.4 Trade Processing</h4>
+    <div class="subBlock">
+
+       <p>Trades will only be denied if foul play is discovered, future dues are not paid, or the trade jeopardizes the league</p>
+
+    </div>
+
+    <h3 class="subSectionHeading" bind:this={oneFive}>1.5 Waiver Wire</h3>
+
+    <p></p>
+
+    <p></p>
+
+
+
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
     <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
 
