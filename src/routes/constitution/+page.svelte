@@ -117,8 +117,6 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneSix)}>1.6 Divisional Breakdown</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneSix)}>1.7 Schedule</h4>
 
-
-
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Owner Expectations</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Setting Lineups</h4>
@@ -127,8 +125,6 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Removal</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoFour)}>2.4 Rule Voting</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoFive)}>2.5 Last Place Punishment</h4>
-
-
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Drafting</h3>
     
@@ -136,7 +132,6 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(threeTwo)}>3.2 Draft Day Trades</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(threeThree)}>3.3 Draft Date & Time</h4>
 
-    
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Scoring System</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Scoring</h4>
@@ -149,10 +144,9 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveThree)}>5.3 Seeding Tiebreakers</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveFour)}>5.4 Toilet Bowl</h4>
 
-
     <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Expansion</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Expansion Rules</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Expansion</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(sixOneOne)}>6.1.1 Setup</h5>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(sixOneTwo)}>6.1.2 The Expansion Draft</h5>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(sixOneThree)}>6.1.3 After the Draft</h5>
@@ -501,7 +495,7 @@
     <p>The 6 teams not in the playoffs will be put into the Toilet Bowl. Seeding works the same way as the playoffs except the bottom 2 teams get a bye. The winners of each week will get “flushed” out and the losers advance. The team who loses every game will receive the punishment of buying a new plaque</p>
 
 
-    <h2 class="sectionHeading" bind:this={Six}>Section 6: Expansion</h2>
+    <h2 class="sectionHeading" bind:this={six}>Section 6: Expansion</h2>
     
     <h3 class="subSectionHeading" bind:this={sixOne}>6.1 Expansion</h3>
 
@@ -540,7 +534,7 @@
     </div>
 
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Section 7: League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
 
