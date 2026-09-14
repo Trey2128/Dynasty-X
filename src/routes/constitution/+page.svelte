@@ -363,13 +363,12 @@
 
     <p>All owners are expected to set their lineups every week. Tanking is not allowed so sitting star players, having healthy players on IR, starting players who aren’t playing, or leaving starting lineup spots empty will result in disciplinary action. Those are as follows:</p>
 
-    <p>First Offense – 10 points added to your season Max Points for every spot left empty/healthy player on IR</p>
-
-    <p>Second Offense – 10 points added to your season Max Points for every spot left empty/healthy player on IR + forfeiture of 2nd round pick</p>
-
-    <p>Third Offense – 10 points added to your season Max Points for every spot left empty/healthy player on IR + forfeiture of 1st round pick</p>
-
-    <p>Fourth Offense – Removal from the league</p>
+    <ul>
+        <li>First Offense – 10 points added to your season Max Points for every spot left empty/healthy player on IR</li>
+        <li>Second Offense – 10 points added to your season Max Points for every spot left empty/healthy player on IR + forfeiture of 2nd round pick</li>
+        <li>Third Offense – 10 points added to your season Max Points for every spot left empty/healthy player on IR + forfeiture of 1st round pick</li>
+        <li>Fourth Offense – Removal from the league</li>
+    </ul>
 
     <p>Only exceptions are:</p>
 
