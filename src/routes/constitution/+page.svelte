@@ -166,7 +166,7 @@
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster</h2>
+    <h2 class="sectionHeading" bind:this={one}>Section 1: Roster</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
@@ -346,7 +346,7 @@
     <h3 bind:this={oneSeven}>1.7 Scheduling</h3> 
 
     <p>After the Divisional draft the schedule will consist of 14 weeks:</p>
-    </ul>
+    <ul>
         <li>First 3 weeks – divisional matchups (random order)</li>
         <li>Next 8 weeks – non-divisional matchups (random order)</li>
         <li>Final 3 weeks – divisional matchups (random order)</li>
@@ -356,9 +356,9 @@
 
     <p>Every week you will play against your opponent and the league median</p>
 
+    <h2 class="sectionHeading" bind:this={two}>Section 2: Ownersship Expectations</h2>
 
-
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
+    <h3 bind:this={twoOne}>2.1 Setting Lineups</h3>
     <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
