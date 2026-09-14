@@ -106,14 +106,14 @@
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoOne)}>1.2.1 Taxi Squad Stealing</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>1.3 Dynasty</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFour)}>1.4 Trading</h4>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFourOne)}>1.4.1 Trade Collusion</h5>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFourTwo)}>1.4.2 Trade Deadline</h5>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFourThree)}>1.4.3 Trade Restrictions</h5>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFourFour)}>1.4.4 Trade Processing</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneFourOne)}>1.4.1 Trade Collusion</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneFourTwo)}>1.4.2 Trade Deadline</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneFourThree)}>1.4.3 Trade Restrictions</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneFourFour)}>1.4.4 Trade Processing</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFive)}>1.5 Waiver Wire</h4>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFiveOne)}>1.5.1 Free Agent Auction Budget (FAAB)</h5>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFiveTwo)}>1.5.2 Offseason Waivers</h5>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFiveThree)}>1.5.3 Season Waivers</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneFiveOne)}>1.5.1 Free Agent Auction Budget (FAAB)</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneFiveTwo)}>1.5.2 Offseason Waivers</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneFiveThree)}>1.5.3 Season Waivers</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneSix)}>1.6 Divisional Breakdown</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneSix)}>1.7 Schedule</h4>
 
@@ -123,7 +123,7 @@
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Setting Lineups</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Leaving the League</h4>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwoOne)}>2.2.1 New Owners</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(twoTwoOne)}>2.2.1 New Owners</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Removal</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoFour)}>2.4 Rule Voting</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoFive)}>2.5 Last Place Punishment</h4>
@@ -153,9 +153,9 @@
     <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Expansion</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Expansion Rules</h4>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOneOne)}>6.1.1 Setup</h5>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOneTwo)}>6.1.2 The Expansion Draft</h5>
-            <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOneThree)}>6.1.3 After the Draft</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(sixOneOne)}>6.1.1 Setup</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(sixOneTwo)}>6.1.2 The Expansion Draft</h5>
+            <h5 class="noUnderscore clickable" onclick={() => goToSection(sixOneThree)}>6.1.3 After the Draft</h5>
 
     <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
     
